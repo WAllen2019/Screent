@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Screenshot</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="html2canvas.js"></script>
+	<link re="stylesheet" href="/font/iconfont.css">
+	<script type="text/javascript">
+	function takeScreenshot() 
+    html2canvas(document.getElementById('#jietu'), {
+        onrendered: function(canvas) {
+            document.body.appendChild(canvas);
+        },
+      // width: 300,
+      // height: 300
+    });
+}
+</script>
+</head>
+<body>
+	<div class="bg" id="jietu">
+		<div class="w_top"></div>
+		<div class="data_1">
+			<ul>
+				<li class="bianhao"><input type="tel"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="银行卡"></li>
+				<li class="jine"><input type="text"></li>
+				<li class="mk_date"><input type="text"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="已完成"></li>
+			</ul>
+		</div>
+		<div class="data_1">
+			<ul>
+				<li class="bianhao"><input type="tel"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="银行卡"></li>
+				<li class="jine"><input type="text"></li>
+				<li class="mk_date"><input type="text"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="已完成"></li>
+			</ul>
+		</div>
+		<div class="data_1">
+			<ul>
+				<li class="bianhao"><input type="tel"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="银行卡"></li>
+				<li class="jine"><input type="text"></li>
+				<li class="mk_date"><input type="text"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="已完成"></li>
+			</ul>
+		</div>
+		<div class="data_1">
+			<ul>
+				<li class="bianhao"><input type="tel"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="银行卡"></li>
+				<li class="jine"><input type="text"></li>
+				<li class="mk_date"><input type="text"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="已完成"></li>
+			</ul>
+		</div>
+		<div class="data_1">
+			<ul>
+				<li class="bianhao"><input type="tel"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="银行卡"></li>
+				<li class="jine"><input type="text"></li>
+				<li class="mk_date"><input type="text"></li>
+				<li class="card_type"><input type="text" readonly unselectable="on" value="已完成"></li>
+			</ul>
+		</div>
+	</div
+</body>
+</html>
